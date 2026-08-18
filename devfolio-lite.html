@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevFolio Lite | John Doe - Junior Web Developer</title>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <h1>John Doe</h1>
+    <p><strong>Role:</strong> Aspiring Frontend Developer &amp; Tech Enthusiast</p>
+    <p><em>Building clean, accessible, and structured web experiences from scratch.</em></p>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#education">Education &amp; Experience</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img 
+        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400" 
+        alt="Profile portrait of John Doe" 
+        width="180"
+      >
+      <p>
+        Hello! I am a self-taught web developer focused on mastering the foundations of the web: 
+        <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>. I enjoy turning complex 
+        problems into simple, structured, and accessible code.
+      </p>
+      <p>
+        <strong>Location:</strong> Austin, TX, USA<br>
+        <strong>Open to:</strong> Junior roles, internships, and open-source contributions.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical &amp; Soft Skills</h2>
+      <dl>
+        <dt><strong>Core Markup &amp; Languages:</strong></dt>
+        <dd>HTML5 (Semantic elements, accessibility standards, form controls), Basic CSS3, Basic JavaScript</dd>
+
+        <dt><strong>Developer Tools:</strong></dt>
+        <dd>Git, GitHub, Visual Studio Code, Chrome DevTools</dd>
+
+        <dt><strong>Soft Skills:</strong></dt>
+        <dd>Problem Solving, Technical Documentation, Fast Learner, Written Communication</dd>
+      </dl>
+    </section>
+
+    <hr>
+
+    <!-- Featured Projects Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <article>
+        <h3>1. The Weekend Chef (Recipe Hub)</h3>
+        <p>A pure HTML documentation page organizing recipes, nutritional breakdown tables, and community reviews.</p>
+        <ul>
+          <li><strong>Technologies:</strong> Semantic HTML5, Forms, Tables</li>
+          <li><strong>Source Code:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>2. Local Coffee Shop Menu</h3>
+        <p>A structured single-page menu featuring price comparisons, origin tables, and custom order requests.</p>
+        <ul>
+          <li><strong>Technologies:</strong> HTML5, Anchor Navigation, Fieldsets</li>
+          <li><strong>Source Code:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- Education & Experience Table -->
+    <section id="education">
+      <h2>Education &amp; Experience</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Role / Degree</th>
+            <th>Institution / Company</th>
+            <th>Key Focus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025 – Present</td>
+            <td>Frontend Foundations Track</td>
+            <td>The Odin Project &amp; freeCodeCamp</td>
+            <td>Semantic Web, Responsive Layouts, DOM Manipulation</td>
+          </tr>
+          <tr>
+            <td>2021 – 2025</td>
+            <td>B.S. in Information Technology</td>
+            <td>State University</td>
+            <td>Computer Systems, Web Basics, Databases</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>Tech Support Specialist (Intern)</td>
+            <td>Apex Solutions</td>
+            <td>Troubleshooting, Hardware Setup, User Documentation</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>Have a question or want to collaborate? Send a message using the form below:</p>
+
+      <form action="#" method="get">
+        <fieldset>
+          <legend><strong>Contact Details</strong></legend>
+
+          <p>
+            <label for="name">Full Name:*</label><br>
+            <input type="text" id="name" name="name" required placeholder="e.g. Sarah Connor">
+          </p>
+
+          <p>
+            <label for="email">Email Address:*</label><br>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+          </p>
+
+          <p>
+            <label for="subject">Inquiry Type:</label><br>
+            <select id="subject" name="subject">
+              <option value="job">Job / Internship Opportunity</option>
+              <option value="freelance">Freelance Project</option>
+              <option value="feedback">General Question / Feedback</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message:*</label><br>
+            <textarea id="message" name="message" rows="5" cols="45" required placeholder="Write your message here..."></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset Form</button>
+          </p>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 John Doe. Built with pure semantic HTML.</p>
+    <p>
+      <a href="#top">Back to top</a>
+    </p>
+  </footer>
+
+</body>
+</html>
